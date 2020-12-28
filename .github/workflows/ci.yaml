@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: Setup App
         uses: actions/checkout@v2
+      - name: Using Golang 1.15
         uses: actions/setup-go@v2
         with: 
           # go-version: ${{ matrix.go }}
